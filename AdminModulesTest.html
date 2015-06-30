@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Admin Modules Test</title>
+    <script type="text/javascript" src="js/Common.js"></script>
+    <script type="text/javascript" src="js/AdminModules.js"></script>
+    <script type="text/javascript">
+        function testLoginProcess()
+        {
+            try {
+                var administrator = new Administrator();
+                administrator.username = "admin";
+                administrator.password = "nimda";
+                var administratorManager = new AdministratorManager();
+                administratorManager.authenticate(administrator, testLoginSuccess, testLoginFailed);
+            }catch(exception)
+            {
+                alert(exception.toString());
+            }
+        }
+        function testLoginSuccess(message)
+        {
+            alert(message);
+        }
+        function testLoginFailed(message)
+        {
+            alert(message);
+        }
+        </script>
+</head>
+<body>
+<input type="button" value="Test Login Process" onclick="testLoginProcess()"></body><br>
+</body>
+</html>

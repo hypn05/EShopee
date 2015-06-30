@@ -1,0 +1,140 @@
+#operatorsModuleHeader
+{
+    width:650px;
+    min-width: 650px;
+}
+.operationIcons
+{
+    cursor: pointer;
+}
+#operatorsModuleToolStrip
+{
+    float:right;
+}
+
+.selectedRow
+{
+color:white;
+    background-color: black;
+}
+.notSelectedRow
+{
+    color: black;
+    background-color: white;
+}
+.validationError
+{
+display:none;
+}
+.administratorModuleTitle
+{
+    font-size:20pt;
+}
+#operatorsTable
+{
+    width: 650px;
+    min-width: 650px;
+    border: 1px solid black;
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+#operatorsTable thead
+{
+    background-color: lightgray;
+    display :block;
+    position: relative;
+}
+#operatorsTable tbody
+{
+    cursor: pointer;
+    display: block;
+    height: 100px;
+    overflow-x: none;
+    overflow-y: scroll;
+}
+#operatorsTable th
+{
+    width: 30px;
+    min-width: 30px;
+    border: 1px solid black;
+    border-bottom: 1px solid black;
+}
+#operatorsTable th + th
+{
+    width: 280px;
+    min-width: 280px;
+    border: 1px solid black;
+    border-bottom: 1px solid black;
+}
+#operatorsTable th + th + th
+{
+     width: 100px;
+     min-width: 100px;
+     border: 1px solid black;
+    border-bottom: 1px solid black;
+}
+#operatorsTable th + th + th +th
+{
+    width: 140px;
+    min-width: 140px;
+    border: 1px solid black;
+    border-bottom: 1px solid black;
+}
+#operatorsTable th + th +th +th +th
+{
+    width: 100px;
+    min-width: 100px;
+    border: 1px solid black;
+    border-bottom: 1px solid black;
+}
+#operatorsTable td
+{
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: right;
+    width: 30px;
+    min-width: 50px;
+}
+#operatorsTable td + td
+{
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: left;
+    width: 260px;
+    min-width: 260px;
+}
+#operatorsTable td + td + td
+{
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: left;
+    width: 100px;
+    min-width: 100px;
+}
+#operatorsTable td + td + td + td
+{
+    text-align: left;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 140px;
+    min-width: 140px;
+}
+#operatorsTable td + td + td + td + td
+{
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: center;
+    width: 100px;
+    min-width: 100px;
+}
+.moduleDivision
+{
+    visibility: hidden;
+}
+#operatorForm
+{
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left
+}
